@@ -24,7 +24,7 @@ public class StudentController
     @RequestMapping("/")
     public String index ()
     {
-        return "halow";
+        return "index";
     }
 
 
