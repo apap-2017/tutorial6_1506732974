@@ -3,6 +3,7 @@
     <head>
         <title>View Student by NPM</title>
 		<div th:replace="fragments/header"></div>
+		<div th:replace="fragments/fragment :: head"></div>
     </head>
     <body>
     		<h3 th:text="'NPM = ' + ${student.npm}">Student NPM</h3>

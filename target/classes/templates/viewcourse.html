@@ -3,8 +3,10 @@
     <head>
         <title>View Course by ID</title>
 		<div th:replace="fragments/header"></div>
+		
     </head>
     <body>
+    <div th:replace="fragments/fragment :: head"></div>
     		<br></br>
        	<center>
        	<h3 th:text="'ID = ' + ${course.id_course}">Course ID</h3>

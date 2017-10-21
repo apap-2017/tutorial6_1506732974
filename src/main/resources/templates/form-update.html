@@ -5,11 +5,11 @@
 	<title>Update student</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<div th:replace="fragments/header"></div>
+	<div th:replace="fragments/fragment :: head"></div>
 </head>
 
 <body>
-	<br></br>
-	<center><h1 class="page-header">Update Student</h1>
+	<center>
 	<br></br>
 	<form th:object="${student}" action="/student/update/submit" method="post">
 		<div>
